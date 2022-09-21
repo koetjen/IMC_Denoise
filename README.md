@@ -187,6 +187,12 @@ $ conda activate IMC_Denoise
   ```
 - More specific parameters can also be added and adjusted. Please refer to the scripts files.
 
+## Format IMC_Denoise output for downstream analysis
+### Create ome.tiff with juptyer notebook
+```
+jupyter notebook --notebook-dir=your_folder_of_notebook_examples
+```
+
 ## Contact
 
 Peng Lu - [@penglu10](https://twitter.com/penglu10) - penglu@wustl.edu
