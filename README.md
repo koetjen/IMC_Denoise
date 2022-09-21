@@ -144,6 +144,9 @@ $ jupyter notebook --notebook-dir=your_folder_of_notebook_examples
   - [IMC_Denoise: remove hot pixels with DIMR and filter shot noise with the pre-trained model of DeepSNF](https://github.com/PENGLU-WashU/IMC_Denoise/blob/main/Jupyter_Notebook_examples/IMC_Denoise_Predict.ipynb)
 - Train and predict the DeepSNF algorithm in the same notebook, in which the generated dataset and trained weights will not be saved.
   - [IMC_Denoise: remove hot pixels with DIMR and filter shot noise with the onsite training of DeepSNF](https://github.com/PENGLU-WashU/IMC_Denoise/blob/main/Jupyter_Notebook_examples/IMC_Denoise_Train_and_Predict.ipynb)
+- Format IMC_Denoise output for downstream analysis, e.g. Mesmer
+  - [IMC_Denoise: format output as ome.tiff](https://github.com/PENGLU-WashU/IMC_Denoise/blob/main/Jupyter_Notebook_examples/Save_denoised_imgs_to_ome_tiff_new.ipynb)
+
 
 ### Implement IMC_Denoise with scripts
 - Activate the IMC_Denoise environment.
@@ -187,11 +190,6 @@ $ conda activate IMC_Denoise
   ```
 - More specific parameters can also be added and adjusted. Please refer to the scripts files.
 
-## Format IMC_Denoise output for downstream analysis
-### Create ome.tiff with juptyer notebook
-```
-jupyter notebook --notebook-dir=your_folder_of_notebook_examples
-```
 
 ## Contact
 
